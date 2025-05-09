@@ -18,7 +18,4 @@ public class Especialidad {
     private String nombre;
     private String descripcion;
 
-    @OneToMany(mappedBy = "especialidad")
-    private List<Doctor> doctores;
-
 }
